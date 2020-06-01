@@ -417,7 +417,7 @@ class Blyr {
         // Clutter Actor with height 0 which will contain the actual blurred background
         this.panelContainer = new Clutter.Actor({
             name: PANEL_CONTAINER_NAME,
-            width: this.primaryBackground.width,
+            width: 0,
             height: 0
         });
 
